@@ -1,0 +1,40 @@
+DECODE FLAG MANUAL
+
+DecodeFlag is written in Python and runs from Python 2.7.10 to Python 3.5.1. See README for installation instructions.
+Make sure to run with running with `python3` command.
+
+Commands and Options
+
+	Basic Command Structure:
+
+		$ python3 decodeFlag.py <optional flags> <input_file.sam> <optional_output_file.sam>
+			# If output file is not specified decodeFlag will print the results in the terminal.
+			# Without any flags specified decodeFlag will print the FLAG descriptions for each alignment in the SAM file as well as the descriptions count and the FLAG combinations count.
+			# Filenames cannot start with a `-`.
+
+	Optional Flags
+		# Can come in any order but must begin with `-`.
+
+		-man
+			# Prints Commands and Options section of MANUAL.
+
+		-o
+			# Specifies that an output file is to be included. Without this, the output file with not be created and/or filled in.
+
+		-d_count
+			# Does not print the descriptions count section.
+
+		-combo_count
+			# Does not print the FLAG combinations count section.
+
+		-qname <QNAME_1> <QNAME_2> -qname_end
+			# Prints only FLAG descriptions for the alignments with the matching qname for the QNAMEs provided as parameters.
+			# QNAMEs must come between -qname and -qname_end flags.
+
+		-qname_file <QNAME_FILE>
+			# Prints only FLAG descriptions for the alignments with the matching qname for the QNAMEs provided in the file.
+			# QNAMEs must be separated by '\n' characters with no extra characters in the file.
+			# The filename must follow imediately after the -qname_file flag.
+
+
+
