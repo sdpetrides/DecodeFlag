@@ -1,6 +1,5 @@
 #DECODE FLAG README
 
-
 DecodeFlag helps to reformat and interpret the FLAG field in the SAM file.
 
 
@@ -12,7 +11,7 @@ DecodeFlag helps to reformat and interpret the FLAG field in the SAM file.
 
 ##Setup
 - Make sure latest version of python is installed (Python 3.5.1)
-	$ python3               # check version with terminal command
+- `$ python3               # check version with terminal command`
 - Clone or download repository
 - See Manual for running instructions and parameters
 

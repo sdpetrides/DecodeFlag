@@ -48,13 +48,103 @@ Each segment properly aligned according to the aligner
 SEQ of the next segment in the template being reverse standed
 The first segment in the template
 
+NB500989:3:HHJWVBGXX:1:11101:15989:1081
+Template having multiple segments in sequencing
+Each segment properly aligned according to the aligner
+SEQ being reverse complemented
+The last segment in the template
+
+NB500989:3:HHJWVBGXX:1:11101:6805:1082
+Template having multiple segments in sequencing
+Each segment properly aligned according to the aligner
+SEQ of the next segment in the template being reverse standed
+The first segment in the template
+
+NB500989:3:HHJWVBGXX:1:11101:6805:1082
+Template having multiple segments in sequencing
+Each segment properly aligned according to the aligner
+SEQ being reverse complemented
+The last segment in the template
+
+NB500989:3:HHJWVBGXX:1:11101:23014:1084
+Template having multiple segments in sequencing
+Each segment properly aligned according to the aligner
+SEQ being reverse complemented
+The first segment in the template
+
+NB500989:3:HHJWVBGXX:1:11101:23014:1084
+Template having multiple segments in sequencing
+Each segment properly aligned according to the aligner
+SEQ of the next segment in the template being reverse standed
+The last segment in the template
+
+NB500989:3:HHJWVBGXX:1:11101:4873:1086
+Template having multiple segments in sequencing
+Each segment properly aligned according to the aligner
+SEQ of the next segment in the template being reverse standed
+The first segment in the template
+
+NB500989:3:HHJWVBGXX:1:11101:4873:1086
+Template having multiple segments in sequencing
+Each segment properly aligned according to the aligner
+SEQ being reverse complemented
+The last segment in the template
+
+NB500989:3:HHJWVBGXX:1:11101:23212:1087
+Template having multiple segments in sequencing
+Each segment properly aligned according to the aligner
+SEQ of the next segment in the template being reverse standed
+The first segment in the template
+
+NB500989:3:HHJWVBGXX:1:11101:23212:1087
+Template having multiple segments in sequencing
+Each segment properly aligned according to the aligner
+SEQ being reverse complemented
+The last segment in the template
+
+NB500989:3:HHJWVBGXX:1:11101:21476:1087
+Template having multiple segments in sequencing
+Each segment properly aligned according to the aligner
+SEQ of the next segment in the template being reverse standed
+The first segment in the template
+
+NB500989:3:HHJWVBGXX:1:11101:21476:1087
+Template having multiple segments in sequencing
+Each segment properly aligned according to the aligner
+SEQ being reverse complemented
+The last segment in the template
+
+NB500989:3:HHJWVBGXX:1:11101:4542:1092
+Template having multiple segments in sequencing
+Each segment properly aligned according to the aligner
+SEQ of the next segment in the template being reverse standed
+The first segment in the template
+
+NB500989:3:HHJWVBGXX:1:11101:4542:1092
+Template having multiple segments in sequencing
+Each segment properly aligned according to the aligner
+SEQ being reverse complemented
+The last segment in the template
+
+NB500989:3:HHJWVBGXX:1:11101:20850:1095
+Template having multiple segments in sequencing
+Each segment properly aligned according to the aligner
+SEQ of the next segment in the template being reverse standed
+The first segment in the template
+
+NB500989:3:HHJWVBGXX:1:11101:20850:1095
+Template having multiple segments in sequencing
+Each segment properly aligned according to the aligner
+SEQ being reverse complemented
+The last segment in the template
+
 Descriptions Count
-[9, "Template having multiple segments in sequencing"]
-[5, "The first segment in the template"]
-[4, "The last segment in the template"]
-[4, "SEQ being reverse complemented"]
-[3, "SEQ of the next segment in the template being reverse standed"]
-[3, "Each segment properly aligned according to the aligner"]
+[24, "Template having multiple segments in sequencing"]
+[18, "Each segment properly aligned according to the aligner"]
+[12, "The last segment in the template"]
+[12, "The first segment in the template"]
+[12, "SEQ being reverse complemented"]
+[10, "SEQ of the next segment in the template being reverse standed"]
 [2, "Segment unmapped"]
 [2, "Next segment in the template unmapped"]
 [0, "Supplementary alignment"]
@@ -65,9 +155,11 @@ Descriptions Count
 FLAG Combinations Count
 [0, 0]
 [81, 1]
+[83, 1]
 [89, 2]
-[99, 2]
+[99, 8]
 [133, 2]
-[147, 1]
+[147, 8]
 [161, 1]
+[163, 1]
 
