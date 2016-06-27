@@ -1,0 +1,73 @@
+NB500989:3:HHJWVBGXX:1:11101:6507:1076
+Template having multiple segments in sequencing
+Next segment in the template unmapped
+SEQ being reverse complemented
+The first segment in the template
+
+NB500989:3:HHJWVBGXX:1:11101:6507:1076
+Template having multiple segments in sequencing
+Segment unmapped
+The last segment in the template
+
+NB500989:3:HHJWVBGXX:1:11101:11771:1076
+Template having multiple segments in sequencing
+SEQ being reverse complemented
+The first segment in the template
+
+NB500989:3:HHJWVBGXX:1:11101:11771:1076
+Template having multiple segments in sequencing
+SEQ of the next segment in the template being reverse standed
+The last segment in the template
+
+NB500989:3:HHJWVBGXX:1:11101:26851:1077
+Template having multiple segments in sequencing
+Each segment properly aligned according to the aligner
+SEQ of the next segment in the template being reverse standed
+The first segment in the template
+
+NB500989:3:HHJWVBGXX:1:11101:26851:1077
+Template having multiple segments in sequencing
+Each segment properly aligned according to the aligner
+SEQ being reverse complemented
+The last segment in the template
+
+NB500989:3:HHJWVBGXX:1:11101:11746:1078
+Template having multiple segments in sequencing
+Next segment in the template unmapped
+SEQ being reverse complemented
+The first segment in the template
+
+NB500989:3:HHJWVBGXX:1:11101:11746:1078
+Template having multiple segments in sequencing
+Segment unmapped
+The last segment in the template
+
+NB500989:3:HHJWVBGXX:1:11101:15989:1081
+Template having multiple segments in sequencing
+Each segment properly aligned according to the aligner
+SEQ of the next segment in the template being reverse standed
+The first segment in the template
+
+Descriptions Count
+[9, "Template having multiple segments in sequencing"]
+[5, "The first segment in the template"]
+[4, "The last segment in the template"]
+[4, "SEQ being reverse complemented"]
+[3, "SEQ of the next segment in the template being reverse standed"]
+[3, "Each segment properly aligned according to the aligner"]
+[2, "Segment unmapped"]
+[2, "Next segment in the template unmapped"]
+[0, "Supplementary alignment"]
+[0, "Secondary alignment"]
+[0, "PCR or optical duplicate"]
+[0, "Not passing filters, such as platform/vender quality controls"]
+
+FLAG Combinations Count
+[0, 0]
+[81, 1]
+[89, 2]
+[99, 2]
+[133, 2]
+[147, 1]
+[161, 1]
+
