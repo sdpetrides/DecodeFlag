@@ -157,7 +157,8 @@ if '-o' not in param_set:
 	for line in file_input:
 		words = line.split()
 		first_word = words[0]
-		if first_word[0] is not '@' and qname_set and first_word in qname_set:
+		print(first_word)
+		if first_word[0] is not '@' and (not qname_set or first_word in qname_set):
 
 			flag_int = int(words[1])
 
