@@ -21,6 +21,9 @@ Commands and Options
 		-o
 			# Specifies that an output file is to be included. Without this, the output file with not be created and/or filled in.
 
+		-full	
+			# Prints entire alignment.
+
 		-d_count
 			# Does not print the descriptions count section.
 

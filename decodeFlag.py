@@ -133,6 +133,8 @@ if '-man' in param_set:
 		"\t\tPrints Commands and Options section of MANUAL.\n",
 		"\t-o\n",
 		"\t\tSpecifies that an output file is to be included. Without this, the output file with not be created and/or filled in.\n",
+		"\t-full\n",
+		"\t\tPrints entire alignment.\n",
 		"\t-d_count\n",
 		"\t\tDoes not print the descriptions count section.\n",
 		"\t-combo_count\n",
@@ -164,7 +166,11 @@ if '-o' not in param_set:
 			flag_list = convert(flag_int)
 			FLAG_combo_count_update(flag_int)
 
-			print(first_word, sep='', end='\n')
+			if '-full' not in param_set:
+				print(first_word, sep='', end='\n')
+			else:
+				print(words, sep='', end='\n')
+
 			for item in flag_list:
 				print(item, sep='', end='\n')
 
@@ -200,7 +206,13 @@ else:
 			flag_list = convert(flag_int)
 			FLAG_combo_count_update(flag_int)
 
-			file_output.write(first_word + '\n')
+			if '-full' not in param_set:
+				file_output.write(first_word + '\n')
+			else:
+				for word in words:
+					file_output.write(word + '\t')
+				file_output.write('\n')
+
 			for item in flag_list:
 				file_output.write(item + '\n')
 			
